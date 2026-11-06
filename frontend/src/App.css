@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f8f4;
+}
+
+.page {
+  max-width: 520px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.list {
+  min-height: 240px;
+  border: 1px solid #d5d5d5;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.system {
+  font-style: italic;
+  color: #777;
+}
+
+.message {
+  font-style: normal;
+  color: #222;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 14px;
+  background: #2e8b57;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+}
